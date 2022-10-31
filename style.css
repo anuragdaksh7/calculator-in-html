@@ -1,0 +1,90 @@
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    background-image: url("https://source.unsplash.com/1370x720/?landscape");
+    font-size: 20px;
+    /*background-image: url("C:\\Users\\anura\\Dropbox\\My PC (DESKTOP-T0Q97TB)\\Downloads\\photo-1542640244-7e672d6cef4e.jpeg");*/
+}
+
+.container {
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 0 4px 50px rgb(0 0 0 / 99%);
+    border-radius: 30px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    justify-content: center;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+.search {
+    margin: 2px;
+    width: 90%;
+    padding-inline-end: 5%;
+    border: none;
+    color: #474747;
+    border-radius: 10px;
+    height: 40px;
+    text-align: right;
+    background-color: #e7e7e7e7;
+    font-size: 25px;
+}}
+
+
+#rows {
+    display: flex;
+    justify-content:center;
+}
+
+#rows {
+    margin-block-start: 5px;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    padding-inline-start: 5%;
+    /* width: fit-content; */
+}
+
+
+.ac {
+    transition: 300ms;
+    width: 25%;
+    height: 40px;
+    /* box-shadow: 0 4px 50px rgb(0 0 0 / 99%); */
+    border: none;
+    margin: 2px;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    background-color: rgb(255 0 0 / 65%);
+    color: white;
+}
+
+#hm {
+    transition: 300ms;
+    width: 25%;
+    height: 40px;
+    /* box-shadow: 0 4px 50px rgb(0 0 0 / 99%); */
+    border: none;
+    border-radius: 10px;
+    margin: 2px;
+    backdrop-filter: blur(1px);
+    background-color: rgb(0 0 0 / 45%);
+    color: white;
+}
+
+
+.ac:hover {
+    background-color: rgba(255,0,0, 0.7);
+}
+
+#hm:hover {
+    background-color: rgba(0,0,0, 0.75);
+}
